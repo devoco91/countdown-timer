@@ -1,0 +1,47 @@
+body{
+    max-height: 100vh;
+    background: linear-gradient(to right, rgb(228, 228, 179), rgb(23, 54, 23));
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.title{
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+
+.title h1{
+    font-size: 5rem;
+    font-style: italic;
+}
+
+.input input{
+    height: 30px;
+    font-size: 20px;
+}
+
+.display{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.display h3{
+    padding: 1px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span{
+    display: block;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.days, .hours, .minutes, .seconds{
+    padding: 0 auto;
+}
